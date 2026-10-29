@@ -1,0 +1,20 @@
+# Secrets — never commit keys or env
+.env
+keys/
+*.keypair.json
+actor-*.json
+
+# Data: raw blocks and send records are PUBLISHED with the submission, but
+# local scratch state and the spend ledger stay out of git by default.
+data/spend-ledger.json
+data/spend-ledger.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Build artifacts
+build/
+*.egg-info/

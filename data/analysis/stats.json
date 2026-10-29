@@ -1,0 +1,5570 @@
+{
+  "overall": {
+    "landing_rate": {
+      "sent": 612,
+      "landed": 612,
+      "rate": 1.0,
+      "by_fee_level": {
+        "0": {
+          "sent": 153,
+          "landed": 153
+        },
+        "1000": {
+          "sent": 153,
+          "landed": 153
+        },
+        "10000": {
+          "sent": 102,
+          "landed": 102
+        },
+        "50000": {
+          "sent": 102,
+          "landed": 102
+        },
+        "250000": {
+          "sent": 102,
+          "landed": 102
+        }
+      }
+    },
+    "ordering": {
+      "same_block_tx_count": 612,
+      "fee_concordance": {
+        "concordant": 73485,
+        "discordant": 74282,
+        "tied": 39199,
+        "fraction": 0.4973031867737722
+      },
+      "fee_concordance_ci95": [
+        0.46299976422243927,
+        0.5317609913103833
+      ],
+      "send_order_concordance": {
+        "concordant": 86758,
+        "discordant": 84341,
+        "tied": 15867,
+        "fraction": 0.5070631622627836
+      },
+      "send_order_concordance_ci95": [
+        0.4794563047690408,
+        0.5335295735578977
+      ],
+      "spearman_fee_vs_index": 0.006478365638798982,
+      "mean_percentile_by_fee": {
+        "0": 0.4837668151426063,
+        "1000": 0.48488877770078515,
+        "10000": 0.4235605707818553,
+        "50000": 0.46805806184548643,
+        "250000": 0.5028597220421166
+      },
+      "shared_sink": {
+        "count": 204,
+        "mean_percentile": 0.4832650792707129
+      },
+      "independent": {
+        "count": 408,
+        "mean_percentile": 0.47023289634828
+      }
+    }
+  },
+  "per_validator": {
+    "1i1yPyh843bTfi5qPgqozTbDcEX65rUNEFcUT2KAs2i": {
+      "client": "agave-bam",
+      "version": "4.4.0-rc.1",
+      "landing_rate": {
+        "sent": 5,
+        "landed": 5,
+        "rate": 1.0,
+        "by_fee_level": {
+          "1000": {
+            "sent": 3,
+            "landed": 3
+          },
+          "250000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 5,
+        "fee_concordance": {
+          "concordant": 4,
+          "discordant": 2,
+          "tied": 4,
+          "fraction": 0.6666666666666666
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 5,
+          "discordant": 5,
+          "tied": 0,
+          "fraction": 0.5
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": -0.28867513459481287,
+        "mean_percentile_by_fee": {
+          "1000": 0.675931753024264,
+          "250000": 0.5785714285714286
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.8942731277533039
+        },
+        "independent": {
+          "count": 4,
+          "mean_percentile": 0.5726662471155863
+        }
+      }
+    },
+    "22rU5yUmdVThrkoPieVNphqEyAtMQKmZxjwcD8v4bJDU": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 4,
+        "landed": 4,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "1000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 4,
+        "fee_concordance": {
+          "concordant": 0,
+          "discordant": 5,
+          "tied": 1,
+          "fraction": 0.0
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          0.0
+        ],
+        "send_order_concordance": {
+          "concordant": 4,
+          "discordant": 2,
+          "tied": 0,
+          "fraction": 0.6666666666666666
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": 0.9486832980505138,
+        "mean_percentile_by_fee": {
+          "0": 0.04524886877828054,
+          "1000": 0.40375716937740713,
+          "250000": 0.9547511312217195
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.9547511312217195
+        },
+        "independent": {
+          "count": 3,
+          "mean_percentile": 0.28425440251103157
+        }
+      }
+    },
+    "2mMGsb5uy1Q4Dvezr8HK2E8SJoChcb2X7b61tJPaVHHd": {
+      "client": "harmonic-firedancer",
+      "version": "26.10.4",
+      "landing_rate": {
+        "sent": 3,
+        "landed": 3,
+        "rate": 1.0,
+        "by_fee_level": {
+          "50000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 3,
+        "fee_concordance": {
+          "concordant": 1,
+          "discordant": 1,
+          "tied": 1,
+          "fraction": 0.5
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 0,
+          "discordant": 3,
+          "tied": 0,
+          "fraction": 0.0
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": 0.0,
+        "mean_percentile_by_fee": {
+          "50000": 0.4461798282362799,
+          "250000": 0.4511627906976744
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.6391129032258065
+        },
+        "independent": {
+          "count": 2,
+          "mean_percentile": 0.3522047719722138
+        }
+      }
+    },
+    "3JotfSFPaod4KVK7nj7ULvcq5PjUBdZNVGracNkJNhrt": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 7,
+        "landed": 7,
+        "rate": 1.0,
+        "by_fee_level": {
+          "1000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "250000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 7,
+        "fee_concordance": {
+          "concordant": 5,
+          "discordant": 13,
+          "tied": 3,
+          "fraction": 0.2777777777777778
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          0.6470588235294118
+        ],
+        "send_order_concordance": {
+          "concordant": 15,
+          "discordant": 5,
+          "tied": 1,
+          "fraction": 0.75
+        },
+        "send_order_concordance_ci95": [
+          0.35294117647058826,
+          1.0
+        ],
+        "spearman_fee_vs_index": 0.6057340560268407,
+        "mean_percentile_by_fee": {
+          "1000": 0.34703453453453453,
+          "10000": 0.28620689655172415,
+          "50000": 0.5998899486427,
+          "250000": 0.8575284900284901
+        },
+        "shared_sink": {
+          "count": 3,
+          "mean_percentile": 0.44158887822864346
+        },
+        "independent": {
+          "count": 4,
+          "mean_percentile": 0.6425865520693107
+        }
+      }
+    },
+    "3YVoK8UN62dyiPZnGBzBTkGdwsVmmK1MpRoLcxNRs9BE": {
+      "client": "jito",
+      "version": "4.4.0-rc.1",
+      "landing_rate": {
+        "sent": 8,
+        "landed": 8,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "1000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 8,
+        "fee_concordance": {
+          "concordant": 17,
+          "discordant": 8,
+          "tied": 3,
+          "fraction": 0.68
+        },
+        "fee_concordance_ci95": [
+          0.2727272727272727,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 15,
+          "discordant": 13,
+          "tied": 0,
+          "fraction": 0.5357142857142857
+        },
+        "send_order_concordance_ci95": [
+          0.21739130434782608,
+          0.9166666666666666
+        ],
+        "spearman_fee_vs_index": -0.31520361922976675,
+        "mean_percentile_by_fee": {
+          "0": 0.3030414710788688,
+          "1000": 0.8217597082670598,
+          "10000": 0.7955801104972375,
+          "50000": 0.3352601156069364,
+          "250000": 0.2278078534613816
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.4171354308104124
+        },
+        "independent": {
+          "count": 6,
+          "mean_percentile": 0.5002979050163282
+        }
+      }
+    },
+    "43Am3PKFeo9cACpqYL5Sk95rpVdxLw3Mc22PqRqZXEW2": {
+      "client": "harmonic-firedancer",
+      "version": "26.10.4",
+      "landing_rate": {
+        "sent": 1,
+        "landed": 1,
+        "rate": 1.0,
+        "by_fee_level": {
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 1,
+        "fee_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": null
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": null
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": null,
+        "mean_percentile_by_fee": {
+          "1000": 0.3883495145631068
+        },
+        "shared_sink": {
+          "count": 0,
+          "mean_percentile": null
+        },
+        "independent": {
+          "count": 1,
+          "mean_percentile": 0.3883495145631068
+        }
+      }
+    },
+    "4DraK9wUrMSpzbGjUbSWTHAhJimMyB49HyKhvfwe6e51": {
+      "client": "agave-bam",
+      "version": "4.4.0-rc.1",
+      "landing_rate": {
+        "sent": 9,
+        "landed": 9,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 3,
+            "landed": 3
+          },
+          "1000": {
+            "sent": 3,
+            "landed": 3
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 9,
+        "fee_concordance": {
+          "concordant": 10,
+          "discordant": 19,
+          "tied": 7,
+          "fraction": 0.3448275862068966
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          0.782608695652174
+        ],
+        "send_order_concordance": {
+          "concordant": 24,
+          "discordant": 11,
+          "tied": 1,
+          "fraction": 0.6857142857142857
+        },
+        "send_order_concordance_ci95": [
+          0.3548387096774194,
+          0.9354838709677419
+        ],
+        "spearman_fee_vs_index": 0.3379189091915236,
+        "mean_percentile_by_fee": {
+          "0": 0.4661043345690244,
+          "1000": 0.2994094104253436,
+          "50000": 0.9504132231404959,
+          "250000": 0.6487603305785125
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.6487603305785125
+        },
+        "independent": {
+          "count": 7,
+          "mean_percentile": 0.46385063687479994
+        }
+      }
+    },
+    "4k6wgP5WPBKQpsFGtzuXNrjcTE2fKWLj17nDvFeG5zSF": {
+      "client": "harmonic-agave",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 1,
+        "landed": 1,
+        "rate": 1.0,
+        "by_fee_level": {
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 1,
+        "fee_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": null
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": null
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": null,
+        "mean_percentile_by_fee": {
+          "10000": 0.6474164133738601
+        },
+        "shared_sink": {
+          "count": 0,
+          "mean_percentile": null
+        },
+        "independent": {
+          "count": 1,
+          "mean_percentile": 0.6474164133738601
+        }
+      }
+    },
+    "58KprHKFNHgH1Cvo4QwxWkDeJNaSQVteCoAAFUWjtESn": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 2,
+        "landed": 2,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 2,
+        "fee_concordance": {
+          "concordant": 1,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": 1.0
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 0,
+          "discordant": 1,
+          "tied": 0,
+          "fraction": 0.0
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": -1.0,
+        "mean_percentile_by_fee": {
+          "0": 0.955719557195572,
+          "250000": 0.3821428571428571
+        },
+        "shared_sink": {
+          "count": 0,
+          "mean_percentile": null
+        },
+        "independent": {
+          "count": 2,
+          "mean_percentile": 0.6689312071692146
+        }
+      }
+    },
+    "5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 15,
+        "landed": 15,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 4,
+            "landed": 4
+          },
+          "1000": {
+            "sent": 3,
+            "landed": 3
+          },
+          "10000": {
+            "sent": 4,
+            "landed": 4
+          },
+          "50000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "250000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 15,
+        "fee_concordance": {
+          "concordant": 46,
+          "discordant": 42,
+          "tied": 17,
+          "fraction": 0.5227272727272727
+        },
+        "fee_concordance_ci95": [
+          0.32051282051282054,
+          0.7294117647058823
+        ],
+        "send_order_concordance": {
+          "concordant": 46,
+          "discordant": 49,
+          "tied": 10,
+          "fraction": 0.4842105263157895
+        },
+        "send_order_concordance_ci95": [
+          0.27058823529411763,
+          0.6976744186046512
+        ],
+        "spearman_fee_vs_index": -0.0475454219479394,
+        "mean_percentile_by_fee": {
+          "0": 0.5301513406997105,
+          "1000": 0.24883836643893006,
+          "10000": 0.5950371385872504,
+          "50000": 0.1676580194652484,
+          "250000": 0.183968781310974
+        },
+        "shared_sink": {
+          "count": 4,
+          "mean_percentile": 0.37991812564236893
+        },
+        "independent": {
+          "count": 11,
+          "mean_percentile": 0.4028045559497821
+        }
+      }
+    },
+    "5EhGYUyQNrxgUbuYF4vbL2SZDT6RMfhq3yjeyevvULeC": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 4,
+        "landed": 4,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "50000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 4,
+        "fee_concordance": {
+          "concordant": 4,
+          "discordant": 0,
+          "tied": 2,
+          "fraction": 1.0
+        },
+        "fee_concordance_ci95": [
+          1.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 4,
+          "discordant": 2,
+          "tied": 0,
+          "fraction": 0.6666666666666666
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": -0.8944271909999159,
+        "mean_percentile_by_fee": {
+          "0": 0.588373012071278,
+          "50000": 0.16480048859934854
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.3016083061889251
+        },
+        "independent": {
+          "count": 2,
+          "mean_percentile": 0.45156519448170146
+        }
+      }
+    },
+    "5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS": {
+      "client": "agave",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 5,
+        "landed": 5,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 5,
+        "fee_concordance": {
+          "concordant": 4,
+          "discordant": 4,
+          "tied": 2,
+          "fraction": 0.5
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 6,
+          "discordant": 4,
+          "tied": 0,
+          "fraction": 0.6
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": 0.0,
+        "mean_percentile_by_fee": {
+          "0": 0.6383642930856553,
+          "10000": 0.8202764976958525,
+          "50000": 0.48467944053682593
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.8202764976958525
+        },
+        "independent": {
+          "count": 4,
+          "mean_percentile": 0.5615218668112406
+        }
+      }
+    },
+    "5ZqveVffQPiUbkjBg4KD9kib1MKHLqiFno4ke9jSq9qk": {
+      "client": "harmonic-agave",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 6,
+        "landed": 6,
+        "rate": 1.0,
+        "by_fee_level": {
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 3,
+            "landed": 3
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 6,
+        "fee_concordance": {
+          "concordant": 2,
+          "discordant": 10,
+          "tied": 3,
+          "fraction": 0.16666666666666666
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          0.6
+        ],
+        "send_order_concordance": {
+          "concordant": 4,
+          "discordant": 10,
+          "tied": 1,
+          "fraction": 0.2857142857142857
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          0.7272727272727273
+        ],
+        "spearman_fee_vs_index": 0.6982532518267537,
+        "mean_percentile_by_fee": {
+          "1000": 0.22302158273381295,
+          "10000": 0.7163636363636363,
+          "50000": 0.548951048951049,
+          "250000": 0.7812448662381781
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.548951048951049
+        },
+        "independent": {
+          "count": 5,
+          "mean_percentile": 0.6566239635623967
+        }
+      }
+    },
+    "5ejbTALcBsKQ7Cj1iSuu2mY5jqbYHqh9gF5ERXLiYj1z": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 4,
+        "landed": 4,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 4,
+        "fee_concordance": {
+          "concordant": 3,
+          "discordant": 2,
+          "tied": 1,
+          "fraction": 0.6
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 4,
+          "discordant": 2,
+          "tied": 0,
+          "fraction": 0.6666666666666666
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": -0.31622776601683794,
+        "mean_percentile_by_fee": {
+          "0": 0.5623003194888179,
+          "10000": 0.23522215755905795,
+          "250000": 0.3446153846153846
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.5623003194888179
+        },
+        "independent": {
+          "count": 3,
+          "mean_percentile": 0.27168656657783347
+        }
+      }
+    },
+    "6WgdYhhGE53WrZ7ywJA15hBVkw7CRbQ8yDBBTwmBtAHN": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 7,
+        "landed": 7,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "50000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 7,
+        "fee_concordance": {
+          "concordant": 9,
+          "discordant": 9,
+          "tied": 3,
+          "fraction": 0.5
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 8,
+          "discordant": 12,
+          "tied": 1,
+          "fraction": 0.4
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          0.8571428571428571
+        ],
+        "spearman_fee_vs_index": 0.027524094128159014,
+        "mean_percentile_by_fee": {
+          "0": 0.706081081081081,
+          "1000": 0.30405405405405406,
+          "10000": 0.49390243902439024,
+          "50000": 0.6029556650246305,
+          "250000": 0.6214285714285714
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.28774131274131276
+        },
+        "independent": {
+          "count": 5,
+          "mean_percentile": 0.6499594578358245
+        }
+      }
+    },
+    "6ptuwW4rg5A3wP9hNKxeymG3QhSagugPd3grnMTGJwWG": {
+      "client": "harmonic-firedancer",
+      "version": "26.10.5",
+      "landing_rate": {
+        "sent": 5,
+        "landed": 5,
+        "rate": 1.0,
+        "by_fee_level": {
+          "1000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 5,
+        "fee_concordance": {
+          "concordant": 3,
+          "discordant": 5,
+          "tied": 2,
+          "fraction": 0.375
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 4,
+          "discordant": 6,
+          "tied": 0,
+          "fraction": 0.4
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": 0.15811388300841897,
+        "mean_percentile_by_fee": {
+          "1000": 0.518794200277715,
+          "50000": 0.8244514106583072,
+          "250000": 0.4838235294117647
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.8244514106583072
+        },
+        "independent": {
+          "count": 4,
+          "mean_percentile": 0.5013088648447398
+        }
+      }
+    },
+    "76rcGHdPvgs8G1XrzCXUTWtwgT59AFDvpB4VbTS2TBBJ": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 6,
+        "landed": 6,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 3,
+            "landed": 3
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 6,
+        "fee_concordance": {
+          "concordant": 5,
+          "discordant": 6,
+          "tied": 4,
+          "fraction": 0.45454545454545453
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 10,
+          "discordant": 3,
+          "tied": 2,
+          "fraction": 0.7692307692307693
+        },
+        "send_order_concordance_ci95": [
+          0.25,
+          1.0
+        ],
+        "spearman_fee_vs_index": 0.06172133998483677,
+        "mean_percentile_by_fee": {
+          "0": 0.47942980873330926,
+          "1000": 0.09090909090909091,
+          "50000": 0.2707572156196944
+        },
+        "shared_sink": {
+          "count": 3,
+          "mean_percentile": 0.43330894538098175
+        },
+        "independent": {
+          "count": 3,
+          "mean_percentile": 0.18737117303061576
+        }
+      }
+    },
+    "7EzbSahSfSjeRexHcNDLDpzHBAGBLjLKtjbmuoQnEtjE": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 3,
+        "landed": 3,
+        "rate": 1.0,
+        "by_fee_level": {
+          "1000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 3,
+        "fee_concordance": {
+          "concordant": 2,
+          "discordant": 0,
+          "tied": 1,
+          "fraction": 1.0
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 2,
+          "discordant": 1,
+          "tied": 0,
+          "fraction": 0.6666666666666666
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": -0.8660254037844387,
+        "mean_percentile_by_fee": {
+          "1000": 0.682119014732965,
+          "250000": 0.26519337016574585
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.5520833333333334
+        },
+        "independent": {
+          "count": 2,
+          "mean_percentile": 0.5386740331491713
+        }
+      }
+    },
+    "7MTjmteQHhthwwTZhUzsc2dP4NBvGNRqj8jzdqNxHFGE": {
+      "client": "agave-bam",
+      "version": "4.4.0-rc.1",
+      "landing_rate": {
+        "sent": 1,
+        "landed": 1,
+        "rate": 1.0,
+        "by_fee_level": {
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 1,
+        "fee_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": null
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": null
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": null,
+        "mean_percentile_by_fee": {
+          "50000": 0.44912280701754387
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.44912280701754387
+        },
+        "independent": {
+          "count": 0,
+          "mean_percentile": null
+        }
+      }
+    },
+    "7PpXQgDb9eCHN1Uudgi77Wm89cRz4T85YgDw83qvaJXd": {
+      "client": "agave-bam",
+      "version": "4.4.0-rc.1",
+      "landing_rate": {
+        "sent": 3,
+        "landed": 3,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 3,
+        "fee_concordance": {
+          "concordant": 3,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": 1.0
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 3,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": 1.0
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": -1.0,
+        "mean_percentile_by_fee": {
+          "0": 0.6984732824427481,
+          "1000": 0.4308300395256917,
+          "10000": 0.06007067137809187
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.37927197691042
+        },
+        "independent": {
+          "count": 1,
+          "mean_percentile": 0.4308300395256917
+        }
+      }
+    },
+    "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE": {
+      "client": "agave",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 2,
+        "landed": 2,
+        "rate": 1.0,
+        "by_fee_level": {
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 2,
+        "fee_concordance": {
+          "concordant": 0,
+          "discordant": 1,
+          "tied": 0,
+          "fraction": 0.0
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 1,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": 1.0
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": 1.0,
+        "mean_percentile_by_fee": {
+          "1000": 0.23636363636363636,
+          "10000": 0.7953488372093023
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.5158562367864693
+        },
+        "independent": {
+          "count": 0,
+          "mean_percentile": null
+        }
+      }
+    },
+    "7tqeaFKsg2K9xKnQWe61w71AtCZVMQvG4hbFAiFAngYw": {
+      "client": "agave-bam",
+      "version": "4.4.0-rc.1",
+      "landing_rate": {
+        "sent": 6,
+        "landed": 6,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 6,
+        "fee_concordance": {
+          "concordant": 9,
+          "discordant": 4,
+          "tied": 2,
+          "fraction": 0.6923076923076923
+        },
+        "fee_concordance_ci95": [
+          0.2,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 12,
+          "discordant": 3,
+          "tied": 0,
+          "fraction": 0.8
+        },
+        "send_order_concordance_ci95": [
+          0.45454545454545453,
+          1.0
+        ],
+        "spearman_fee_vs_index": -0.3530939318018998,
+        "mean_percentile_by_fee": {
+          "0": 0.5074074074074074,
+          "1000": 0.7869318181818182,
+          "10000": 0.32829138151026566,
+          "50000": 0.5493562231759657
+        },
+        "shared_sink": {
+          "count": 3,
+          "mean_percentile": 0.4248271161003636
+        },
+        "independent": {
+          "count": 3,
+          "mean_percentile": 0.5777347569640131
+        }
+      }
+    },
+    "8NpDWRcKHkBjn8mbHMYgDm2Z2DRvXXuDiSScPsGSdSgr": {
+      "client": "jito",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 1,
+        "landed": 1,
+        "rate": 1.0,
+        "by_fee_level": {
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 1,
+        "fee_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": null
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": null
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": null,
+        "mean_percentile_by_fee": {
+          "1000": 0.7885196374622356
+        },
+        "shared_sink": {
+          "count": 0,
+          "mean_percentile": null
+        },
+        "independent": {
+          "count": 1,
+          "mean_percentile": 0.7885196374622356
+        }
+      }
+    },
+    "9W3QTgBhkU4Bwg6cwnDJo6eGZ9BtZafSdu1Lo9JmWws7": {
+      "client": "harmonic-agave",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 10,
+        "landed": 10,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 5,
+            "landed": 5
+          },
+          "250000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 10,
+        "fee_concordance": {
+          "concordant": 17,
+          "discordant": 17,
+          "tied": 11,
+          "fraction": 0.5
+        },
+        "fee_concordance_ci95": [
+          0.06451612903225806,
+          0.8888888888888888
+        ],
+        "send_order_concordance": {
+          "concordant": 20,
+          "discordant": 23,
+          "tied": 2,
+          "fraction": 0.46511627906976744
+        },
+        "send_order_concordance_ci95": [
+          0.13157894736842105,
+          0.7631578947368421
+        ],
+        "spearman_fee_vs_index": -0.03243745600673013,
+        "mean_percentile_by_fee": {
+          "0": 0.7095435684647303,
+          "1000": 0.09003215434083602,
+          "10000": 0.6639676113360324,
+          "50000": 0.3083617535652571,
+          "250000": 0.5220954693698909
+        },
+        "shared_sink": {
+          "count": 4,
+          "mean_percentile": 0.5716842383048767
+        },
+        "independent": {
+          "count": 6,
+          "mean_percentile": 0.2938010145813598
+        }
+      }
+    },
+    "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY": {
+      "client": "firedancer",
+      "version": "26.10.4",
+      "landing_rate": {
+        "sent": 17,
+        "landed": 17,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 4,
+            "landed": 4
+          },
+          "1000": {
+            "sent": 4,
+            "landed": 4
+          },
+          "10000": {
+            "sent": 3,
+            "landed": 3
+          },
+          "50000": {
+            "sent": 4,
+            "landed": 4
+          },
+          "250000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 17,
+        "fee_concordance": {
+          "concordant": 70,
+          "discordant": 44,
+          "tied": 22,
+          "fraction": 0.6140350877192983
+        },
+        "fee_concordance_ci95": [
+          0.3619047619047619,
+          0.8878504672897196
+        ],
+        "send_order_concordance": {
+          "concordant": 67,
+          "discordant": 55,
+          "tied": 14,
+          "fraction": 0.5491803278688525
+        },
+        "send_order_concordance_ci95": [
+          0.3565217391304348,
+          0.7652173913043478
+        ],
+        "spearman_fee_vs_index": -0.21796092983675228,
+        "mean_percentile_by_fee": {
+          "0": 0.823049354958084,
+          "1000": 0.485819505531499,
+          "10000": 0.257671970169372,
+          "50000": 0.5310425206976931,
+          "250000": 0.8109848484848485
+        },
+        "shared_sink": {
+          "count": 6,
+          "mean_percentile": 0.46335496030984924
+        },
+        "independent": {
+          "count": 11,
+          "mean_percentile": 0.6340455791243474
+        }
+      }
+    },
+    "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP": {
+      "client": "firebam",
+      "version": "26.10.5",
+      "landing_rate": {
+        "sent": 13,
+        "landed": 13,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 3,
+            "landed": 3
+          },
+          "1000": {
+            "sent": 3,
+            "landed": 3
+          },
+          "10000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "50000": {
+            "sent": 3,
+            "landed": 3
+          },
+          "250000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 13,
+        "fee_concordance": {
+          "concordant": 37,
+          "discordant": 30,
+          "tied": 11,
+          "fraction": 0.5522388059701493
+        },
+        "fee_concordance_ci95": [
+          0.2786885245901639,
+          0.8095238095238095
+        ],
+        "send_order_concordance": {
+          "concordant": 45,
+          "discordant": 32,
+          "tied": 1,
+          "fraction": 0.5844155844155844
+        },
+        "send_order_concordance_ci95": [
+          0.36764705882352944,
+          0.7464788732394366
+        ],
+        "spearman_fee_vs_index": -0.1821078397711709,
+        "mean_percentile_by_fee": {
+          "0": 0.44017094017094016,
+          "1000": 0.7415307381320976,
+          "10000": 0.32786885245901637,
+          "50000": 0.48749218261413385,
+          "250000": 0.46174863387978143
+        },
+        "shared_sink": {
+          "count": 4,
+          "mean_percentile": 0.5654054617469252
+        },
+        "independent": {
+          "count": 9,
+          "mean_percentile": 0.48057718982682335
+        }
+      }
+    },
+    "A1vqhA2fS6K7CvHsJKX1ACcHJFEmyRg4KuR5pctHANy4": {
+      "client": "harmonic-agave",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 4,
+        "landed": 4,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 4,
+        "fee_concordance": {
+          "concordant": 4,
+          "discordant": 1,
+          "tied": 1,
+          "fraction": 0.8
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 1,
+          "discordant": 5,
+          "tied": 0,
+          "fraction": 0.16666666666666666
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": -0.6324555320336759,
+        "mean_percentile_by_fee": {
+          "0": 0.7936507936507936,
+          "10000": 0.35719759168035026,
+          "250000": 0.2839506172839506
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.16419753086419753
+        },
+        "independent": {
+          "count": 2,
+          "mean_percentile": 0.7318007662835249
+        }
+      }
+    },
+    "A4hyMd3FyvUJSRafDUSwtLLaQcxRP4r1BRC9w2AJ1to2": {
+      "client": "firebam",
+      "version": "26.10.5",
+      "landing_rate": {
+        "sent": 2,
+        "landed": 2,
+        "rate": 1.0,
+        "by_fee_level": {
+          "1000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 2,
+        "fee_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 1,
+          "fraction": null
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 1,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": 1.0
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": null,
+        "mean_percentile_by_fee": {
+          "1000": 0.5816597195907541
+        },
+        "shared_sink": {
+          "count": 0,
+          "mean_percentile": null
+        },
+        "independent": {
+          "count": 2,
+          "mean_percentile": 0.5816597195907541
+        }
+      }
+    },
+    "A9mvukTd77EbRoBX4ydSCFQHdu5bsRFkNXTTRstA8FAC": {
+      "client": "jito",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 1,
+        "landed": 1,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 1,
+        "fee_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": null
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": null
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": null,
+        "mean_percentile_by_fee": {
+          "0": 0.9195979899497487
+        },
+        "shared_sink": {
+          "count": 0,
+          "mean_percentile": null
+        },
+        "independent": {
+          "count": 1,
+          "mean_percentile": 0.9195979899497487
+        }
+      }
+    },
+    "AiDoLWFKzNxSXKeZ4zym2TEPkg6F4kQ3YBA8WhANVPEq": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 5,
+        "landed": 5,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 5,
+        "fee_concordance": {
+          "concordant": 7,
+          "discordant": 2,
+          "tied": 1,
+          "fraction": 0.7777777777777778
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 6,
+          "discordant": 4,
+          "tied": 0,
+          "fraction": 0.6
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": -0.7181848464596079,
+        "mean_percentile_by_fee": {
+          "0": 0.6142322097378277,
+          "1000": 0.9662921348314607,
+          "10000": 0.45761250817430593,
+          "50000": 0.3968253968253968
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.5730337078651686
+        },
+        "independent": {
+          "count": 3,
+          "mean_percentile": 0.58216911400432
+        }
+      }
+    },
+    "AwcMVMvmT1aCETVYV42WE1cSMCyNp4vZqVjLsvs6dM4o": {
+      "client": "jito",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 5,
+        "landed": 5,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 5,
+        "fee_concordance": {
+          "concordant": 5,
+          "discordant": 4,
+          "tied": 1,
+          "fraction": 0.5555555555555556
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 10,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": 1.0
+        },
+        "send_order_concordance_ci95": [
+          1.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": -0.15389675281277312,
+        "mean_percentile_by_fee": {
+          "0": 0.9590831043956044,
+          "1000": 0.02099737532808399,
+          "10000": 0.9219143576826196,
+          "250000": 0.028125
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.4750196788413098
+        },
+        "independent": {
+          "count": 3,
+          "mean_percentile": 0.6463878613730976
+        }
+      }
+    },
+    "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM": {
+      "client": "harmonic-firedancer",
+      "version": "26.10.4",
+      "landing_rate": {
+        "sent": 23,
+        "landed": 23,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 6,
+            "landed": 6
+          },
+          "1000": {
+            "sent": 8,
+            "landed": 8
+          },
+          "10000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "50000": {
+            "sent": 3,
+            "landed": 3
+          },
+          "250000": {
+            "sent": 4,
+            "landed": 4
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 23,
+        "fee_concordance": {
+          "concordant": 104,
+          "discordant": 95,
+          "tied": 54,
+          "fraction": 0.5226130653266332
+        },
+        "fee_concordance_ci95": [
+          0.328125,
+          0.7313432835820896
+        ],
+        "send_order_concordance": {
+          "concordant": 93,
+          "discordant": 146,
+          "tied": 14,
+          "fraction": 0.3891213389121339
+        },
+        "send_order_concordance_ci95": [
+          0.2145922746781116,
+          0.5789473684210527
+        ],
+        "spearman_fee_vs_index": -0.03810021525129307,
+        "mean_percentile_by_fee": {
+          "0": 0.490710886662627,
+          "1000": 0.49522736843691223,
+          "10000": 0.5318178553472671,
+          "50000": 0.4584913452560511,
+          "250000": 0.42274274895338415
+        },
+        "shared_sink": {
+          "count": 7,
+          "mean_percentile": 0.4498320309314164
+        },
+        "independent": {
+          "count": 16,
+          "mean_percentile": 0.49295879957671057
+        }
+      }
+    },
+    "BtsmiEEvnSuUnKxqXj2PZRYpPJAc7C34mGz8gtJ1DAaH": {
+      "client": "harmonic-agave",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 8,
+        "landed": 8,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "1000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "10000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "250000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 8,
+        "fee_concordance": {
+          "concordant": 16,
+          "discordant": 8,
+          "tied": 4,
+          "fraction": 0.6666666666666666
+        },
+        "fee_concordance_ci95": [
+          0.30434782608695654,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 16,
+          "discordant": 12,
+          "tied": 0,
+          "fraction": 0.5714285714285714
+        },
+        "send_order_concordance_ci95": [
+          0.23809523809523808,
+          0.9130434782608695
+        ],
+        "spearman_fee_vs_index": -0.34156502553198664,
+        "mean_percentile_by_fee": {
+          "0": 0.638707182320442,
+          "1000": 0.37793526355407864,
+          "10000": 0.41659169772522814,
+          "250000": 0.274
+        },
+        "shared_sink": {
+          "count": 3,
+          "mean_percentile": 0.3389734469121672
+        },
+        "independent": {
+          "count": 5,
+          "mean_percentile": 0.4795095892925992
+        }
+      }
+    },
+    "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k": {
+      "client": "jito",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 24,
+        "landed": 24,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 7,
+            "landed": 7
+          },
+          "1000": {
+            "sent": 6,
+            "landed": 6
+          },
+          "10000": {
+            "sent": 4,
+            "landed": 4
+          },
+          "50000": {
+            "sent": 3,
+            "landed": 3
+          },
+          "250000": {
+            "sent": 4,
+            "landed": 4
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 24,
+        "fee_concordance": {
+          "concordant": 126,
+          "discordant": 99,
+          "tied": 51,
+          "fraction": 0.56
+        },
+        "fee_concordance_ci95": [
+          0.3424657534246575,
+          0.7605633802816901
+        ],
+        "send_order_concordance": {
+          "concordant": 125,
+          "discordant": 135,
+          "tied": 16,
+          "fraction": 0.4807692307692308
+        },
+        "send_order_concordance_ci95": [
+          0.31983805668016196,
+          0.6816326530612244
+        ],
+        "spearman_fee_vs_index": -0.12177916961706395,
+        "mean_percentile_by_fee": {
+          "0": 0.41657071272433394,
+          "1000": 0.6798214435281991,
+          "10000": 0.3358101989138074,
+          "50000": 0.2917583332602922,
+          "250000": 0.3543479827253426
+        },
+        "shared_sink": {
+          "count": 9,
+          "mean_percentile": 0.5867080965958448
+        },
+        "independent": {
+          "count": 15,
+          "mean_percentile": 0.3566972338142937
+        }
+      }
+    },
+    "CARBN9PY1Qej1aCg4885pfoYH8EHfjWuMy59pVa48ky": {
+      "client": "jito",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 6,
+        "landed": 6,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "1000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "50000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 6,
+        "fee_concordance": {
+          "concordant": 7,
+          "discordant": 6,
+          "tied": 2,
+          "fraction": 0.5384615384615384
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 7,
+          "discordant": 8,
+          "tied": 0,
+          "fraction": 0.4666666666666667
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": 0.0,
+        "mean_percentile_by_fee": {
+          "0": 0.5238095238095238,
+          "1000": 0.5906301628510738,
+          "50000": 0.11654930177837644,
+          "250000": 0.8479087452471483
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.12547528517110265
+        },
+        "independent": {
+          "count": 5,
+          "mean_percentile": 0.532120382628894
+        }
+      }
+    },
+    "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4": {
+      "client": "harmonic-agave",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 31,
+        "landed": 31,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 4,
+            "landed": 4
+          },
+          "1000": {
+            "sent": 6,
+            "landed": 6
+          },
+          "10000": {
+            "sent": 7,
+            "landed": 7
+          },
+          "50000": {
+            "sent": 7,
+            "landed": 7
+          },
+          "250000": {
+            "sent": 7,
+            "landed": 7
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 31,
+        "fee_concordance": {
+          "concordant": 182,
+          "discordant": 196,
+          "tied": 87,
+          "fraction": 0.48148148148148145
+        },
+        "fee_concordance_ci95": [
+          0.31043956043956045,
+          0.6594594594594595
+        ],
+        "send_order_concordance": {
+          "concordant": 210,
+          "discordant": 224,
+          "tied": 31,
+          "fraction": 0.4838709677419355
+        },
+        "send_order_concordance_ci95": [
+          0.3407960199004975,
+          0.6390243902439025
+        ],
+        "spearman_fee_vs_index": 0.03999287765999519,
+        "mean_percentile_by_fee": {
+          "0": 0.4616435974518308,
+          "1000": 0.38387116751842987,
+          "10000": 0.6433510832779614,
+          "50000": 0.48771016283759133,
+          "250000": 0.42917035360539246
+        },
+        "shared_sink": {
+          "count": 12,
+          "mean_percentile": 0.4816064156552775
+        },
+        "independent": {
+          "count": 19,
+          "mean_percentile": 0.4890602950053257
+        }
+      }
+    },
+    "CMPSSdrTnRQBiBGTyFpdCc3VMNuLWYWaSkE8Zh5z6gbd": {
+      "client": "agave-bam",
+      "version": "4.4.0-rc.1",
+      "landing_rate": {
+        "sent": 1,
+        "landed": 1,
+        "rate": 1.0,
+        "by_fee_level": {
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 1,
+        "fee_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": null
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": null
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": null,
+        "mean_percentile_by_fee": {
+          "1000": 0.43781094527363185
+        },
+        "shared_sink": {
+          "count": 0,
+          "mean_percentile": null
+        },
+        "independent": {
+          "count": 1,
+          "mean_percentile": 0.43781094527363185
+        }
+      }
+    },
+    "CQdLgwkmmHF8DE6t4sguXMTXWDxq3oLh3xfekDTmow12": {
+      "client": "harmonic-firedancer",
+      "version": "26.10.4",
+      "landing_rate": {
+        "sent": 16,
+        "landed": 16,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 5,
+            "landed": 5
+          },
+          "1000": {
+            "sent": 3,
+            "landed": 3
+          },
+          "10000": {
+            "sent": 3,
+            "landed": 3
+          },
+          "50000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "250000": {
+            "sent": 3,
+            "landed": 3
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 16,
+        "fee_concordance": {
+          "concordant": 36,
+          "discordant": 64,
+          "tied": 20,
+          "fraction": 0.36
+        },
+        "fee_concordance_ci95": [
+          0.14285714285714285,
+          0.5882352941176471
+        ],
+        "send_order_concordance": {
+          "concordant": 64,
+          "discordant": 50,
+          "tied": 6,
+          "fraction": 0.5614035087719298
+        },
+        "send_order_concordance_ci95": [
+          0.37142857142857144,
+          0.7545454545454545
+        ],
+        "spearman_fee_vs_index": 0.3377080566421941,
+        "mean_percentile_by_fee": {
+          "0": 0.2618849474557935,
+          "1000": 0.5906200170578856,
+          "10000": 0.3641773751843269,
+          "50000": 0.43331466965285553,
+          "250000": 0.5869669114891408
+        },
+        "shared_sink": {
+          "count": 6,
+          "mean_percentile": 0.5075634942058432
+        },
+        "independent": {
+          "count": 10,
+          "mean_percentile": 0.37559660225436786
+        }
+      }
+    },
+    "CW9C7HBwAMgqNdXkNgFg9Ujr3edR2Ab9ymEuQnVacd1A": {
+      "client": "harmonic-agave",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 2,
+        "landed": 2,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 2,
+        "fee_concordance": {
+          "concordant": 0,
+          "discordant": 1,
+          "tied": 0,
+          "fraction": 0.0
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 1,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": 1.0
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": 1.0,
+        "mean_percentile_by_fee": {
+          "0": 0.10330578512396695,
+          "1000": 0.3956386292834891
+        },
+        "shared_sink": {
+          "count": 0,
+          "mean_percentile": null
+        },
+        "independent": {
+          "count": 2,
+          "mean_percentile": 0.249472207203728
+        }
+      }
+    },
+    "CoG8d9Fp2TFJRkAmrPMiPsGhQWHzdTTVoegEp9svRgmJ": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 4,
+        "landed": 4,
+        "rate": 1.0,
+        "by_fee_level": {
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 4,
+        "fee_concordance": {
+          "concordant": 0,
+          "discordant": 5,
+          "tied": 1,
+          "fraction": 0.0
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          0.0
+        ],
+        "send_order_concordance": {
+          "concordant": 1,
+          "discordant": 5,
+          "tied": 0,
+          "fraction": 0.16666666666666666
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": 0.9486832980505138,
+        "mean_percentile_by_fee": {
+          "10000": 0.38333333333333336,
+          "50000": 0.38869257950530034,
+          "250000": 0.7267531028998266
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.7267531028998266
+        },
+        "independent": {
+          "count": 2,
+          "mean_percentile": 0.3860129564193169
+        }
+      }
+    },
+    "CpNnGGhgVATJAbzHUXdrcGfpPiGuZyPka4QUmH7YgavX": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 7,
+        "landed": 7,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 7,
+        "fee_concordance": {
+          "concordant": 11,
+          "discordant": 8,
+          "tied": 2,
+          "fraction": 0.5789473684210527
+        },
+        "fee_concordance_ci95": [
+          0.09090909090909091,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 12,
+          "discordant": 9,
+          "tied": 0,
+          "fraction": 0.5714285714285714
+        },
+        "send_order_concordance_ci95": [
+          0.23529411764705882,
+          0.9090909090909091
+        ],
+        "spearman_fee_vs_index": -0.16366341767699427,
+        "mean_percentile_by_fee": {
+          "0": 0.8910891089108911,
+          "1000": 0.3487179487179487,
+          "10000": 0.19167635387020482,
+          "50000": 0.7125506072874493,
+          "250000": 0.3338762214983713
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.3338762214983713
+        },
+        "independent": {
+          "count": 5,
+          "mean_percentile": 0.4671420745313398
+        }
+      }
+    },
+    "CwyVpfmfSiMeCexi3JgUNvaiDfYN14cLDjzT99zcBuD2": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 2,
+        "landed": 2,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 2,
+        "fee_concordance": {
+          "concordant": 1,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": 1.0
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 1,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": 1.0
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": -1.0,
+        "mean_percentile_by_fee": {
+          "0": 0.07348242811501597,
+          "1000": 0.03823529411764706
+        },
+        "shared_sink": {
+          "count": 0,
+          "mean_percentile": null
+        },
+        "independent": {
+          "count": 2,
+          "mean_percentile": 0.05585886111633152
+        }
+      }
+    },
+    "DF1owXYZ1fk5vWyHJ8s1cJeAozgkqsi1JUVqvktqrpwd": {
+      "client": "jito",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 4,
+        "landed": 4,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 4,
+        "fee_concordance": {
+          "concordant": 0,
+          "discordant": 5,
+          "tied": 1,
+          "fraction": 0.0
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          0.0
+        ],
+        "send_order_concordance": {
+          "concordant": 2,
+          "discordant": 4,
+          "tied": 0,
+          "fraction": 0.3333333333333333
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": 0.9486832980505138,
+        "mean_percentile_by_fee": {
+          "0": 0.14754098360655737,
+          "1000": 0.5085470085470085,
+          "250000": 0.8433592664629064
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.5085470085470085
+        },
+        "independent": {
+          "count": 3,
+          "mean_percentile": 0.6114198388441233
+        }
+      }
+    },
+    "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy": {
+      "client": "agave-bam",
+      "version": "4.4.0-rc.1",
+      "landing_rate": {
+        "sent": 19,
+        "landed": 19,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 5,
+            "landed": 5
+          },
+          "1000": {
+            "sent": 5,
+            "landed": 5
+          },
+          "10000": {
+            "sent": 3,
+            "landed": 3
+          },
+          "50000": {
+            "sent": 3,
+            "landed": 3
+          },
+          "250000": {
+            "sent": 3,
+            "landed": 3
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 19,
+        "fee_concordance": {
+          "concordant": 52,
+          "discordant": 90,
+          "tied": 29,
+          "fraction": 0.36619718309859156
+        },
+        "fee_concordance_ci95": [
+          0.20149253731343283,
+          0.5652173913043478
+        ],
+        "send_order_concordance": {
+          "concordant": 99,
+          "discordant": 61,
+          "tied": 11,
+          "fraction": 0.61875
+        },
+        "send_order_concordance_ci95": [
+          0.4391891891891892,
+          0.8181818181818182
+        ],
+        "spearman_fee_vs_index": 0.34120605010382066,
+        "mean_percentile_by_fee": {
+          "0": 0.23940043194115898,
+          "1000": 0.545888063306962,
+          "10000": 0.163185775558543,
+          "50000": 0.736866840748923,
+          "250000": 0.34967483739329336
+        },
+        "shared_sink": {
+          "count": 6,
+          "mean_percentile": 0.4721471967720415
+        },
+        "independent": {
+          "count": 13,
+          "mean_percentile": 0.37251858897774104
+        }
+      }
+    },
+    "DUND26mEDfFeaPsVof3YvbXDRvpuQX7HMUJrLgEWzYw4": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 4,
+        "landed": 4,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 4,
+        "fee_concordance": {
+          "concordant": 3,
+          "discordant": 2,
+          "tied": 1,
+          "fraction": 0.6
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 2,
+          "discordant": 4,
+          "tied": 0,
+          "fraction": 0.3333333333333333
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": -0.31622776601683794,
+        "mean_percentile_by_fee": {
+          "0": 0.5276172415869003,
+          "10000": 0.9047619047619048,
+          "50000": 0.4824120603015075
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.36054421768707484
+        },
+        "independent": {
+          "count": 3,
+          "mean_percentile": 0.6939547435167127
+        }
+      }
+    },
+    "DrifTrN923QaouP89UxkQzFGbumKPCnfkNYQRwmZxatz": {
+      "client": "harmonic-agave",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 4,
+        "landed": 4,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 4,
+        "fee_concordance": {
+          "concordant": 2,
+          "discordant": 3,
+          "tied": 1,
+          "fraction": 0.4
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 4,
+          "discordant": 2,
+          "tied": 0,
+          "fraction": 0.6666666666666666
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": 0.31622776601683794,
+        "mean_percentile_by_fee": {
+          "0": 0.005025125628140704,
+          "1000": 0.8994974874371859,
+          "50000": 0.48159813150258335
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.005025125628140704
+        },
+        "independent": {
+          "count": 3,
+          "mean_percentile": 0.6208979168141175
+        }
+      }
+    },
+    "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL": {
+      "client": "jito",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 31,
+        "landed": 31,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 10,
+            "landed": 10
+          },
+          "1000": {
+            "sent": 6,
+            "landed": 6
+          },
+          "10000": {
+            "sent": 5,
+            "landed": 5
+          },
+          "50000": {
+            "sent": 5,
+            "landed": 5
+          },
+          "250000": {
+            "sent": 5,
+            "landed": 5
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 31,
+        "fee_concordance": {
+          "concordant": 164,
+          "discordant": 211,
+          "tied": 90,
+          "fraction": 0.43733333333333335
+        },
+        "fee_concordance_ci95": [
+          0.2789317507418398,
+          0.6016483516483516
+        ],
+        "send_order_concordance": {
+          "concordant": 248,
+          "discordant": 182,
+          "tied": 35,
+          "fraction": 0.5767441860465117
+        },
+        "send_order_concordance_ci95": [
+          0.4351145038167939,
+          0.709832134292566
+        ],
+        "spearman_fee_vs_index": 0.1625847806925193,
+        "mean_percentile_by_fee": {
+          "0": 0.3852825240911637,
+          "1000": 0.5301295229235149,
+          "10000": 0.19269943789974062,
+          "50000": 0.5098582383241699,
+          "250000": 0.6555759638690115
+        },
+        "shared_sink": {
+          "count": 9,
+          "mean_percentile": 0.39952725166814607
+        },
+        "independent": {
+          "count": 22,
+          "mean_percentile": 0.4649329688138192
+        }
+      }
+    },
+    "ECZx4Dfyn2o55KTYbM9r3Dt4VZRcrdfdrst7sUbWgrdU": {
+      "client": "firebam",
+      "version": "26.10.4",
+      "landing_rate": {
+        "sent": 6,
+        "landed": 6,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 6,
+        "fee_concordance": {
+          "concordant": 4,
+          "discordant": 10,
+          "tied": 1,
+          "fraction": 0.2857142857142857
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          0.8888888888888888
+        ],
+        "send_order_concordance": {
+          "concordant": 9,
+          "discordant": 6,
+          "tied": 0,
+          "fraction": 0.6
+        },
+        "send_order_concordance_ci95": [
+          0.18181818181818182,
+          1.0
+        ],
+        "spearman_fee_vs_index": 0.46381682852195877,
+        "mean_percentile_by_fee": {
+          "0": 0.5294117647058824,
+          "1000": 0.23107569721115537,
+          "10000": 0.6812749003984063,
+          "50000": 0.8914027149321267,
+          "250000": 0.9123505976095617
+        },
+        "shared_sink": {
+          "count": 3,
+          "mean_percentile": 0.8586040453570334
+        },
+        "independent": {
+          "count": 3,
+          "mean_percentile": 0.39970510116397157
+        }
+      }
+    },
+    "EUcJwf7jXskRE6NZBtFPVH2EedNvNYko8LL2WT62XctB": {
+      "client": "jito",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 8,
+        "landed": 8,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "1000": {
+            "sent": 3,
+            "landed": 3
+          },
+          "50000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 8,
+        "fee_concordance": {
+          "concordant": 18,
+          "discordant": 5,
+          "tied": 5,
+          "fraction": 0.782608695652174
+        },
+        "fee_concordance_ci95": [
+          0.47368421052631576,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 13,
+          "discordant": 15,
+          "tied": 0,
+          "fraction": 0.4642857142857143
+        },
+        "send_order_concordance_ci95": [
+          0.16666666666666666,
+          0.8095238095238095
+        ],
+        "spearman_fee_vs_index": -0.6547702297173061,
+        "mean_percentile_by_fee": {
+          "0": 0.7917166866746699,
+          "1000": 0.5692627889144485,
+          "50000": 0.5110372942775178,
+          "250000": 0.0653061224489796
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.7917166866746699
+        },
+        "independent": {
+          "count": 6,
+          "mean_percentile": 0.4658615129578934
+        }
+      }
+    },
+    "EXckihF3qmguH5znjhfzLvHsbk2E3nEW2DqNh4MMnDMm": {
+      "client": "harmonic-firedancer",
+      "version": "26.10.4",
+      "landing_rate": {
+        "sent": 5,
+        "landed": 5,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 3,
+            "landed": 3
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 5,
+        "fee_concordance": {
+          "concordant": 2,
+          "discordant": 5,
+          "tied": 3,
+          "fraction": 0.2857142857142857
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 7,
+          "discordant": 3,
+          "tied": 0,
+          "fraction": 0.7
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": 0.4472135954999579,
+        "mean_percentile_by_fee": {
+          "0": 0.3408130081300813,
+          "10000": 0.19256756756756757,
+          "50000": 0.847972972972973
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.15959349593495936
+        },
+        "independent": {
+          "count": 3,
+          "mean_percentile": 0.5812641910202886
+        }
+      }
+    },
+    "EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f": {
+      "client": "harmonic-agave",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 3,
+        "landed": 3,
+        "rate": 1.0,
+        "by_fee_level": {
+          "1000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 3,
+        "fee_concordance": {
+          "concordant": 2,
+          "discordant": 0,
+          "tied": 1,
+          "fraction": 1.0
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 1,
+          "discordant": 2,
+          "tied": 0,
+          "fraction": 0.3333333333333333
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": -0.8660254037844387,
+        "mean_percentile_by_fee": {
+          "1000": 0.6348772986882572,
+          "10000": 0.1295843520782396
+        },
+        "shared_sink": {
+          "count": 3,
+          "mean_percentile": 0.4664463164849179
+        },
+        "independent": {
+          "count": 0,
+          "mean_percentile": null
+        }
+      }
+    },
+    "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4": {
+      "client": "jito",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 4,
+        "landed": 4,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 4,
+        "fee_concordance": {
+          "concordant": 1,
+          "discordant": 3,
+          "tied": 2,
+          "fraction": 0.25
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 2,
+          "discordant": 3,
+          "tied": 1,
+          "fraction": 0.4
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": 0.3888888888888889,
+        "mean_percentile_by_fee": {
+          "0": 0.6139303482587064,
+          "1000": 0.5844155844155844,
+          "50000": 0.85
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.6728048071331654
+        },
+        "independent": {
+          "count": 2,
+          "mean_percentile": 0.6583333333333333
+        }
+      }
+    },
+    "FWwwP9tNttSy9dJFxwf6ebXWfc6VJXqFNMTccrMiLFTH": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 3,
+        "landed": 3,
+        "rate": 1.0,
+        "by_fee_level": {
+          "1000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 3,
+        "fee_concordance": {
+          "concordant": 1,
+          "discordant": 1,
+          "tied": 1,
+          "fraction": 0.5
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 0,
+          "discordant": 3,
+          "tied": 0,
+          "fraction": 0.0
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": 0.0,
+        "mean_percentile_by_fee": {
+          "1000": 0.6697104363998096,
+          "50000": 0.5654008438818565
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.5654008438818565
+        },
+        "independent": {
+          "count": 2,
+          "mean_percentile": 0.6697104363998096
+        }
+      }
+    },
+    "FbYX2uN573G5WsgiPdHU6fS5PNUyjdXfGfpZNkYUuT4k": {
+      "client": "jito",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 10,
+        "landed": 10,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "1000": {
+            "sent": 3,
+            "landed": 3
+          },
+          "10000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 10,
+        "fee_concordance": {
+          "concordant": 12,
+          "discordant": 27,
+          "tied": 6,
+          "fraction": 0.3076923076923077
+        },
+        "fee_concordance_ci95": [
+          0.02857142857142857,
+          0.6666666666666666
+        ],
+        "send_order_concordance": {
+          "concordant": 24,
+          "discordant": 19,
+          "tied": 2,
+          "fraction": 0.5581395348837209
+        },
+        "send_order_concordance_ci95": [
+          0.21212121212121213,
+          0.8611111111111112
+        ],
+        "spearman_fee_vs_index": 0.4645053793131109,
+        "mean_percentile_by_fee": {
+          "0": 0.6527799448691944,
+          "1000": 0.4888471177944862,
+          "10000": 0.7814235530277684,
+          "50000": 0.37719298245614036,
+          "250000": 0.8755819260611593
+        },
+        "shared_sink": {
+          "count": 4,
+          "mean_percentile": 0.7135336320763123
+        },
+        "independent": {
+          "count": 6,
+          "mean_percentile": 0.601528442575099
+        }
+      }
+    },
+    "Fc6NNdS2j3EmrWbU6Uqt6wsKB5ef72NjaWfNxKYbULGD": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 1,
+        "landed": 1,
+        "rate": 1.0,
+        "by_fee_level": {
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 1,
+        "fee_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": null
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": null
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": null,
+        "mean_percentile_by_fee": {
+          "50000": 0.776595744680851
+        },
+        "shared_sink": {
+          "count": 0,
+          "mean_percentile": null
+        },
+        "independent": {
+          "count": 1,
+          "mean_percentile": 0.776595744680851
+        }
+      }
+    },
+    "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk": {
+      "client": "harmonic-agave",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 31,
+        "landed": 31,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 8,
+            "landed": 8
+          },
+          "1000": {
+            "sent": 9,
+            "landed": 9
+          },
+          "10000": {
+            "sent": 5,
+            "landed": 5
+          },
+          "50000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "250000": {
+            "sent": 7,
+            "landed": 7
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 31,
+        "fee_concordance": {
+          "concordant": 172,
+          "discordant": 197,
+          "tied": 96,
+          "fraction": 0.46612466124661245
+        },
+        "fee_concordance_ci95": [
+          0.30238726790450926,
+          0.6224188790560472
+        ],
+        "send_order_concordance": {
+          "concordant": 199,
+          "discordant": 238,
+          "tied": 28,
+          "fraction": 0.45537757437070936
+        },
+        "send_order_concordance_ci95": [
+          0.3113207547169811,
+          0.607981220657277
+        ],
+        "spearman_fee_vs_index": 0.08988154634251824,
+        "mean_percentile_by_fee": {
+          "0": 0.5781357507008449,
+          "1000": 0.4444334457607325,
+          "10000": 0.5256141279955175,
+          "50000": 0.8270198131608664,
+          "250000": 0.5986815363566409
+        },
+        "shared_sink": {
+          "count": 10,
+          "mean_percentile": 0.6701137762492604
+        },
+        "independent": {
+          "count": 21,
+          "mean_percentile": 0.49508239408364546
+        }
+      }
+    },
+    "Fy7RCjDdFLG8wLn7TBKbccaKwYX1FetdSoVDREdUHf5o": {
+      "client": "agave-bam",
+      "version": "4.4.0-rc.1",
+      "landing_rate": {
+        "sent": 4,
+        "landed": 4,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 4,
+        "fee_concordance": {
+          "concordant": 3,
+          "discordant": 2,
+          "tied": 1,
+          "fraction": 0.6
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 4,
+          "discordant": 1,
+          "tied": 1,
+          "fraction": 0.8
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": -0.21081851067789195,
+        "mean_percentile_by_fee": {
+          "0": 0.9285714285714286,
+          "10000": 0.27232142857142855,
+          "50000": 0.8221343873517787,
+          "250000": 0.5170278637770898
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.9285714285714286
+        },
+        "independent": {
+          "count": 3,
+          "mean_percentile": 0.5371612265667657
+        }
+      }
+    },
+    "FzQqaDStQQHs52YKeCnDovwSqvyZBCgs2kJcmvoFZwaS": {
+      "client": "harmonic-agave",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 4,
+        "landed": 4,
+        "rate": 1.0,
+        "by_fee_level": {
+          "1000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 4,
+        "fee_concordance": {
+          "concordant": 2,
+          "discordant": 3,
+          "tied": 1,
+          "fraction": 0.4
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 3,
+          "discordant": 3,
+          "tied": 0,
+          "fraction": 0.5
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": 0.21081851067789195,
+        "mean_percentile_by_fee": {
+          "1000": 0.39482758620689656,
+          "50000": 0.9433962264150944,
+          "250000": 0.46855345911949686
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.9433962264150944
+        },
+        "independent": {
+          "count": 3,
+          "mean_percentile": 0.41940287717776337
+        }
+      }
+    },
+    "G3a3iYZKNLbivothF3twqcaTCEvoPb9uJ2bFc9DNKkBQ": {
+      "client": "harmonic-agave",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 9,
+        "landed": 9,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "1000": {
+            "sent": 4,
+            "landed": 4
+          },
+          "50000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "250000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 9,
+        "fee_concordance": {
+          "concordant": 12,
+          "discordant": 16,
+          "tied": 8,
+          "fraction": 0.42857142857142855
+        },
+        "fee_concordance_ci95": [
+          0.1,
+          0.7
+        ],
+        "send_order_concordance": {
+          "concordant": 14,
+          "discordant": 21,
+          "tied": 1,
+          "fraction": 0.4
+        },
+        "send_order_concordance_ci95": [
+          0.10344827586206896,
+          0.7741935483870968
+        ],
+        "spearman_fee_vs_index": 0.10540925533894598,
+        "mean_percentile_by_fee": {
+          "0": 0.5748502994011976,
+          "1000": 0.44172169841330433,
+          "50000": 0.5670505579749592,
+          "250000": 0.40496430889033097
+        },
+        "shared_sink": {
+          "count": 3,
+          "mean_percentile": 0.4444323984520684
+        },
+        "independent": {
+          "count": 6,
+          "mean_percentile": 0.4920782719047983
+        }
+      }
+    },
+    "GBQ2GvTzmjXMu97dr7WUnLKYTNim1aoZsYS53KYXAAAA": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 5,
+        "landed": 5,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 5,
+        "fee_concordance": {
+          "concordant": 1,
+          "discordant": 8,
+          "tied": 1,
+          "fraction": 0.1111111111111111
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          0.5
+        ],
+        "send_order_concordance": {
+          "concordant": 1,
+          "discordant": 8,
+          "tied": 1,
+          "fraction": 0.1111111111111111
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          0.6666666666666666
+        ],
+        "spearman_fee_vs_index": 0.8207826816681233,
+        "mean_percentile_by_fee": {
+          "0": 0.06696428571428571,
+          "1000": 0.06521739130434782,
+          "10000": 0.14477864316458292,
+          "50000": 0.6689895470383276
+        },
+        "shared_sink": {
+          "count": 4,
+          "mean_percentile": 0.2563777797704448
+        },
+        "independent": {
+          "count": 1,
+          "mean_percentile": 0.06521739130434782
+        }
+      }
+    },
+    "GREEDkgav1ox1jYyd9Anv6exLqKV2vYnxMw5prGwmNKc": {
+      "client": "agave-bam",
+      "version": "4.4.0-rc.1",
+      "landing_rate": {
+        "sent": 1,
+        "landed": 1,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 1,
+        "fee_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": null
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": null
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": null,
+        "mean_percentile_by_fee": {
+          "0": 0.40540540540540543
+        },
+        "shared_sink": {
+          "count": 0,
+          "mean_percentile": null
+        },
+        "independent": {
+          "count": 1,
+          "mean_percentile": 0.40540540540540543
+        }
+      }
+    },
+    "GzDfKKoZ6E8ReqKfH96k5bkmA6CEWtnUrQnZjSqW4ZzG": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 3,
+        "landed": 3,
+        "rate": 1.0,
+        "by_fee_level": {
+          "1000": {
+            "sent": 3,
+            "landed": 3
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 3,
+        "fee_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 3,
+          "fraction": null
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 3,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": 1.0
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": null,
+        "mean_percentile_by_fee": {
+          "1000": 0.6453712001102916
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.8808988764044944
+        },
+        "independent": {
+          "count": 2,
+          "mean_percentile": 0.5276073619631902
+        }
+      }
+    },
+    "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU": {
+      "client": "jito",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 32,
+        "landed": 32,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 8,
+            "landed": 8
+          },
+          "1000": {
+            "sent": 8,
+            "landed": 8
+          },
+          "10000": {
+            "sent": 7,
+            "landed": 7
+          },
+          "50000": {
+            "sent": 4,
+            "landed": 4
+          },
+          "250000": {
+            "sent": 5,
+            "landed": 5
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 32,
+        "fee_concordance": {
+          "concordant": 205,
+          "discordant": 198,
+          "tied": 93,
+          "fraction": 0.5086848635235732
+        },
+        "fee_concordance_ci95": [
+          0.366412213740458,
+          0.6563307493540051
+        ],
+        "send_order_concordance": {
+          "concordant": 247,
+          "discordant": 218,
+          "tied": 31,
+          "fraction": 0.5311827956989247
+        },
+        "send_order_concordance_ci95": [
+          0.4039301310043668,
+          0.6637168141592921
+        ],
+        "spearman_fee_vs_index": -0.016893520170606257,
+        "mean_percentile_by_fee": {
+          "0": 0.44617701825005074,
+          "1000": 0.5147307793668322,
+          "10000": 0.5314789642468891,
+          "50000": 0.20432538399045577,
+          "250000": 0.5654201963530281
+        },
+        "shared_sink": {
+          "count": 9,
+          "mean_percentile": 0.38575351348594134
+        },
+        "independent": {
+          "count": 23,
+          "mean_percentile": 0.503488522913773
+        }
+      }
+    },
+    "HSDTxfgrqY8ZK88Q5Fx2DdX7zxMDqXgxJKgErTBSLoQJ": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 6,
+        "landed": 6,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 6,
+        "fee_concordance": {
+          "concordant": 9,
+          "discordant": 5,
+          "tied": 1,
+          "fraction": 0.6428571428571429
+        },
+        "fee_concordance_ci95": [
+          0.18181818181818182,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 9,
+          "discordant": 6,
+          "tied": 0,
+          "fraction": 0.6
+        },
+        "send_order_concordance_ci95": [
+          0.16666666666666666,
+          1.0
+        ],
+        "spearman_fee_vs_index": -0.28988551782622424,
+        "mean_percentile_by_fee": {
+          "0": 0.620253164556962,
+          "1000": 0.45454545454545453,
+          "10000": 0.20569620253164558,
+          "50000": 0.5404040404040404,
+          "250000": 0.1691919191919192
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.3947225418744406
+        },
+        "independent": {
+          "count": 4,
+          "mean_percentile": 0.43526243447129526
+        }
+      }
+    },
+    "HTeRsa3gm3CGrizMoCrtWj4uBZ1NKYcGqh8jfBu2u3Jo": {
+      "client": "harmonic-agave",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 5,
+        "landed": 5,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "1000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 5,
+        "fee_concordance": {
+          "concordant": 6,
+          "discordant": 2,
+          "tied": 2,
+          "fraction": 0.75
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 6,
+          "discordant": 4,
+          "tied": 0,
+          "fraction": 0.6
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": -0.6324555320336759,
+        "mean_percentile_by_fee": {
+          "0": 0.5105286738351255,
+          "1000": 0.053074165977391785,
+          "250000": 0.17966101694915254
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.33264405845051004
+        },
+        "independent": {
+          "count": 3,
+          "mean_percentile": 0.2138595265577223
+        }
+      }
+    },
+    "HW4zorvt6xDwhU36RqjcWNwU8YMj9tiqnAafBKW4cqV": {
+      "client": "firedancer",
+      "version": "26.10.4",
+      "landing_rate": {
+        "sent": 4,
+        "landed": 4,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 4,
+        "fee_concordance": {
+          "concordant": 4,
+          "discordant": 2,
+          "tied": 0,
+          "fraction": 0.6666666666666666
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 4,
+          "discordant": 2,
+          "tied": 0,
+          "fraction": 0.6666666666666666
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": -0.6,
+        "mean_percentile_by_fee": {
+          "0": 0.5519125683060109,
+          "1000": 0.5274261603375527,
+          "10000": 0.06751054852320675,
+          "50000": 0.3291139240506329
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.2974683544303797
+        },
+        "independent": {
+          "count": 2,
+          "mean_percentile": 0.4405132461783219
+        }
+      }
+    },
+    "HaLanfo94ezLc3JZ55qqxr7W3qbe1PprJyv2uEtriEqN": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 7,
+        "landed": 7,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "1000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 7,
+        "fee_concordance": {
+          "concordant": 6,
+          "discordant": 13,
+          "tied": 2,
+          "fraction": 0.3157894736842105
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 10,
+          "discordant": 11,
+          "tied": 0,
+          "fraction": 0.47619047619047616
+        },
+        "send_order_concordance_ci95": [
+          0.14285714285714285,
+          0.8823529411764706
+        ],
+        "spearman_fee_vs_index": 0.47280542884465016,
+        "mean_percentile_by_fee": {
+          "0": 0.39307495573480233,
+          "1000": 0.3520931841771422,
+          "10000": 0.09049773755656108,
+          "50000": 0.8235294117647058,
+          "250000": 0.7190635451505016
+        },
+        "shared_sink": {
+          "count": 3,
+          "mean_percentile": 0.48193324152403433
+        },
+        "independent": {
+          "count": 4,
+          "mean_percentile": 0.4194068124308886
+        }
+      }
+    },
+    "HcZvwZ83PfjrQDiq3GLHxisTs17aGURs6bJ2LwtmL4qv": {
+      "client": "jito",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 5,
+        "landed": 5,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 5,
+        "fee_concordance": {
+          "concordant": 6,
+          "discordant": 3,
+          "tied": 1,
+          "fraction": 0.6666666666666666
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 5,
+          "discordant": 5,
+          "tied": 0,
+          "fraction": 0.5
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": -0.41039134083406165,
+        "mean_percentile_by_fee": {
+          "0": 0.7443570485638851,
+          "1000": 0.9178082191780822,
+          "50000": 0.5280172413793104,
+          "250000": 0.0625
+        },
+        "shared_sink": {
+          "count": 3,
+          "mean_percentile": 0.6722437795023603
+        },
+        "independent": {
+          "count": 2,
+          "mean_percentile": 0.4901541095890411
+        }
+      }
+    },
+    "HnfPZDrbJFooiP9vvgWrjx3baXVNAZCgisT58gyMCgML": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 3,
+        "landed": 3,
+        "rate": 1.0,
+        "by_fee_level": {
+          "10000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 3,
+        "fee_concordance": {
+          "concordant": 0,
+          "discordant": 2,
+          "tied": 1,
+          "fraction": 0.0
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 2,
+          "discordant": 1,
+          "tied": 0,
+          "fraction": 0.6666666666666666
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": 0.8660254037844387,
+        "mean_percentile_by_fee": {
+          "10000": 0.10458474792181399,
+          "250000": 0.35051546391752575
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.35051546391752575
+        },
+        "independent": {
+          "count": 2,
+          "mean_percentile": 0.10458474792181399
+        }
+      }
+    },
+    "HnrXmm65CyvmSyvwEMjmyHzYjAyhHiHEJ7s1pf6BxTYA": {
+      "client": "harmonic-firedancer",
+      "version": "26.10.4",
+      "landing_rate": {
+        "sent": 5,
+        "landed": 5,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 5,
+        "fee_concordance": {
+          "concordant": 8,
+          "discordant": 0,
+          "tied": 2,
+          "fraction": 1.0
+        },
+        "fee_concordance_ci95": [
+          1.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 4,
+          "discordant": 6,
+          "tied": 0,
+          "fraction": 0.4
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": -0.9486832980505138,
+        "mean_percentile_by_fee": {
+          "0": 0.9286225739589222,
+          "1000": 0.5103448275862069,
+          "10000": 0.4746380668511816
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.7048999850723989
+        },
+        "independent": {
+          "count": 3,
+          "mean_percentile": 0.635688713020539
+        }
+      }
+    },
+    "HpcB5Qg8Y9E73dUkot5e8HkgAJbExsYeUzniY4bCuKac": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 5,
+        "landed": 5,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 5,
+        "fee_concordance": {
+          "concordant": 5,
+          "discordant": 5,
+          "tied": 0,
+          "fraction": 0.5
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 7,
+          "discordant": 3,
+          "tied": 0,
+          "fraction": 0.7
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": -0.1,
+        "mean_percentile_by_fee": {
+          "0": 0.24691358024691357,
+          "1000": 0.691358024691358,
+          "10000": 0.7408906882591093,
+          "50000": 0.09716599190283401,
+          "250000": 0.4048582995951417
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.24691358024691357
+        },
+        "independent": {
+          "count": 4,
+          "mean_percentile": 0.48356825111211077
+        }
+      }
+    },
+    "Hz5aLvpKScNWoe9YZWxBLrQA3qzHJivBGtfciMekk8m5": {
+      "client": "harmonic-agave",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 5,
+        "landed": 5,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "1000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 5,
+        "fee_concordance": {
+          "concordant": 4,
+          "discordant": 4,
+          "tied": 2,
+          "fraction": 0.5
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 5,
+          "discordant": 5,
+          "tied": 0,
+          "fraction": 0.5
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": 0.0,
+        "mean_percentile_by_fee": {
+          "0": 0.5097356881361387,
+          "1000": 0.30826829464537153,
+          "50000": 0.32038834951456313
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.32038834951456313
+        },
+        "independent": {
+          "count": 4,
+          "mean_percentile": 0.4090019913907551
+        }
+      }
+    },
+    "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB": {
+      "client": "firedancer",
+      "version": "26.10.4",
+      "landing_rate": {
+        "sent": 17,
+        "landed": 17,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 4,
+            "landed": 4
+          },
+          "1000": {
+            "sent": 4,
+            "landed": 4
+          },
+          "10000": {
+            "sent": 3,
+            "landed": 3
+          },
+          "50000": {
+            "sent": 3,
+            "landed": 3
+          },
+          "250000": {
+            "sent": 3,
+            "landed": 3
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 17,
+        "fee_concordance": {
+          "concordant": 65,
+          "discordant": 50,
+          "tied": 21,
+          "fraction": 0.5652173913043478
+        },
+        "fee_concordance_ci95": [
+          0.35714285714285715,
+          0.7454545454545455
+        ],
+        "send_order_concordance": {
+          "concordant": 72,
+          "discordant": 55,
+          "tied": 9,
+          "fraction": 0.5669291338582677
+        },
+        "send_order_concordance_ci95": [
+          0.35833333333333334,
+          0.782258064516129
+        ],
+        "spearman_fee_vs_index": -0.20917663246415422,
+        "mean_percentile_by_fee": {
+          "0": 0.38039071235252936,
+          "1000": 0.2822940225369996,
+          "10000": 0.09433507145817877,
+          "50000": 0.2892875996776972,
+          "250000": 0.19184461029424824
+        },
+        "shared_sink": {
+          "count": 6,
+          "mean_percentile": 0.2464627544803839
+        },
+        "independent": {
+          "count": 11,
+          "mean_percentile": 0.26348765972419863
+        }
+      }
+    },
+    "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b": {
+      "client": "harmonic-firedancer",
+      "version": "26.10.4",
+      "landing_rate": {
+        "sent": 28,
+        "landed": 28,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 10,
+            "landed": 10
+          },
+          "1000": {
+            "sent": 9,
+            "landed": 9
+          },
+          "10000": {
+            "sent": 3,
+            "landed": 3
+          },
+          "50000": {
+            "sent": 3,
+            "landed": 3
+          },
+          "250000": {
+            "sent": 3,
+            "landed": 3
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 28,
+        "fee_concordance": {
+          "concordant": 130,
+          "discordant": 157,
+          "tied": 91,
+          "fraction": 0.4529616724738676
+        },
+        "fee_concordance_ci95": [
+          0.286231884057971,
+          0.6377952755905512
+        ],
+        "send_order_concordance": {
+          "concordant": 178,
+          "discordant": 178,
+          "tied": 22,
+          "fraction": 0.5
+        },
+        "send_order_concordance_ci95": [
+          0.34870317002881845,
+          0.6366279069767442
+        ],
+        "spearman_fee_vs_index": 0.1282170658826885,
+        "mean_percentile_by_fee": {
+          "0": 0.468635970599559,
+          "1000": 0.41729837204502895,
+          "10000": 0.6015214626372564,
+          "50000": 0.32795883521226604,
+          "250000": 0.7562329460221152
+        },
+        "shared_sink": {
+          "count": 8,
+          "mean_percentile": 0.46361527900154836
+        },
+        "independent": {
+          "count": 20,
+          "mean_percentile": 0.48951312770016886
+        }
+      }
+    },
+    "Je6ckvDiPr7zKz49JVXFuhXRFLS3W57WnksbS2G8tbP": {
+      "client": "jito",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 10,
+        "landed": 10,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 4,
+            "landed": 4
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 3,
+            "landed": 3
+          },
+          "50000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 10,
+        "fee_concordance": {
+          "concordant": 15,
+          "discordant": 20,
+          "tied": 10,
+          "fraction": 0.42857142857142855
+        },
+        "fee_concordance_ci95": [
+          0.11764705882352941,
+          0.75
+        ],
+        "send_order_concordance": {
+          "concordant": 27,
+          "discordant": 18,
+          "tied": 0,
+          "fraction": 0.6
+        },
+        "send_order_concordance_ci95": [
+          0.2702702702702703,
+          0.8918918918918919
+        ],
+        "spearman_fee_vs_index": 0.15255401427929477,
+        "mean_percentile_by_fee": {
+          "0": 0.5116842723938371,
+          "1000": 0.125,
+          "10000": 0.4872415632919835,
+          "50000": 0.5092024539877301
+        },
+        "shared_sink": {
+          "count": 3,
+          "mean_percentile": 0.5419501133786848
+        },
+        "independent": {
+          "count": 7,
+          "mean_percentile": 0.4322880496129578
+        }
+      }
+    },
+    "Ninja1spj6n9t5hVYgF3PdnYz2PLnkt7rvaw3firmjs": {
+      "client": "agave-bam",
+      "version": "4.4.0-rc.1",
+      "landing_rate": {
+        "sent": 2,
+        "landed": 2,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 2,
+        "fee_concordance": {
+          "concordant": 0,
+          "discordant": 1,
+          "tied": 0,
+          "fraction": 0.0
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 1,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": 1.0
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": 1.0,
+        "mean_percentile_by_fee": {
+          "0": 0.05442176870748299,
+          "10000": 0.2535885167464115
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.2535885167464115
+        },
+        "independent": {
+          "count": 1,
+          "mean_percentile": 0.05442176870748299
+        }
+      }
+    },
+    "SFundNVpuWk89g211WKUZGkuu4BsKSp7PbnmRsPZLos": {
+      "client": "harmonic-firedancer",
+      "version": "26.10.4",
+      "landing_rate": {
+        "sent": 2,
+        "landed": 2,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 2,
+        "fee_concordance": {
+          "concordant": 0,
+          "discordant": 1,
+          "tied": 0,
+          "fraction": 0.0
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 0,
+          "discordant": 1,
+          "tied": 0,
+          "fraction": 0.0
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": 1.0,
+        "mean_percentile_by_fee": {
+          "0": 0.3391003460207612,
+          "50000": 0.8187311178247734
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.3391003460207612
+        },
+        "independent": {
+          "count": 1,
+          "mean_percentile": 0.8187311178247734
+        }
+      }
+    },
+    "SSmBEooM7RkmyuXxuKgAhTvhQZ36Z3G2WsmLGJKoQLY": {
+      "client": "firebam",
+      "version": "26.10.5",
+      "landing_rate": {
+        "sent": 6,
+        "landed": 6,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 6,
+        "fee_concordance": {
+          "concordant": 11,
+          "discordant": 3,
+          "tied": 1,
+          "fraction": 0.7857142857142857
+        },
+        "fee_concordance_ci95": [
+          0.2727272727272727,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 8,
+          "discordant": 7,
+          "tied": 0,
+          "fraction": 0.5333333333333333
+        },
+        "send_order_concordance_ci95": [
+          0.07692307692307693,
+          0.8888888888888888
+        ],
+        "spearman_fee_vs_index": -0.6667366910003157,
+        "mean_percentile_by_fee": {
+          "0": 0.4453125,
+          "1000": 0.8311688311688312,
+          "10000": 0.6278026905829597,
+          "50000": 0.21465968586387435,
+          "250000": 0.06060606060606061
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.4453125
+        },
+        "independent": {
+          "count": 4,
+          "mean_percentile": 0.4335593170554315
+        }
+      }
+    },
+    "bkpk9KVsDRfrArzzmkJ9mPEvbXfQxczzQYR3QMGiR8Z": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 5,
+        "landed": 5,
+        "rate": 1.0,
+        "by_fee_level": {
+          "1000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 5,
+        "fee_concordance": {
+          "concordant": 4,
+          "discordant": 5,
+          "tied": 1,
+          "fraction": 0.4444444444444444
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 8,
+          "discordant": 2,
+          "tied": 0,
+          "fraction": 0.8
+        },
+        "send_order_concordance_ci95": [
+          0.25,
+          1.0
+        ],
+        "spearman_fee_vs_index": 0.20519567041703082,
+        "mean_percentile_by_fee": {
+          "1000": 0.6017501439263098,
+          "10000": 0.6355555555555555,
+          "50000": 0.17333333333333334,
+          "250000": 0.7461139896373057
+        },
+        "shared_sink": {
+          "count": 0,
+          "mean_percentile": null
+        },
+        "independent": {
+          "count": 5,
+          "mean_percentile": 0.5517006332757628
+        }
+      }
+    },
+    "jzDsimGW1g8esbD1Kr2oRvr9X573XS2zQd7AsYJ1to5": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 2,
+        "landed": 2,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 2,
+        "fee_concordance": {
+          "concordant": 1,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": 1.0
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 0,
+          "discordant": 1,
+          "tied": 0,
+          "fraction": 0.0
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": -1.0,
+        "mean_percentile_by_fee": {
+          "0": 0.14988814317673377,
+          "10000": 0.27615062761506276
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.14988814317673377
+        },
+        "independent": {
+          "count": 1,
+          "mean_percentile": 0.27615062761506276
+        }
+      }
+    },
+    "omeg2wsojzB7tfyAxsFhp8npxHL8yxVnaf51poXCwSd": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 2,
+        "landed": 2,
+        "rate": 1.0,
+        "by_fee_level": {
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 2,
+        "fee_concordance": {
+          "concordant": 1,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": 1.0
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 1,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": 1.0
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": -1.0,
+        "mean_percentile_by_fee": {
+          "1000": 0.8214285714285714,
+          "250000": 0.5807860262008734
+        },
+        "shared_sink": {
+          "count": 1,
+          "mean_percentile": 0.8214285714285714
+        },
+        "independent": {
+          "count": 1,
+          "mean_percentile": 0.5807860262008734
+        }
+      }
+    },
+    "privaEdSEmnMPGPoQACUkcDGkFBbTArVvsEGd7C5wUM": {
+      "client": "jito",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 8,
+        "landed": 8,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "1000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "50000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 8,
+        "fee_concordance": {
+          "concordant": 12,
+          "discordant": 13,
+          "tied": 3,
+          "fraction": 0.48
+        },
+        "fee_concordance_ci95": [
+          0.11764705882352941,
+          0.9090909090909091
+        ],
+        "send_order_concordance": {
+          "concordant": 17,
+          "discordant": 9,
+          "tied": 2,
+          "fraction": 0.6538461538461539
+        },
+        "send_order_concordance_ci95": [
+          0.34782608695652173,
+          0.9166666666666666
+        ],
+        "spearman_fee_vs_index": 0.10910894511799618,
+        "mean_percentile_by_fee": {
+          "0": 0.17159014075849774,
+          "1000": 0.5252321818053894,
+          "10000": 0.5544747081712063,
+          "50000": 0.1168032786885246,
+          "250000": 0.4228904812998161
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.5071355386416861
+        },
+        "independent": {
+          "count": 6,
+          "mean_percentile": 0.31607208621729416
+        }
+      }
+    },
+    "sCANXAaS1a7yB8jz3USvGNLfd8DSc9r7TNzNSKKPkfY": {
+      "client": "agave-bam",
+      "version": "4.3.2",
+      "landing_rate": {
+        "sent": 1,
+        "landed": 1,
+        "rate": 1.0,
+        "by_fee_level": {
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 1,
+        "fee_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": null
+        },
+        "fee_concordance_ci95": null,
+        "send_order_concordance": {
+          "concordant": 0,
+          "discordant": 0,
+          "tied": 0,
+          "fraction": null
+        },
+        "send_order_concordance_ci95": null,
+        "spearman_fee_vs_index": null,
+        "mean_percentile_by_fee": {
+          "10000": 0.13400335008375208
+        },
+        "shared_sink": {
+          "count": 0,
+          "mean_percentile": null
+        },
+        "independent": {
+          "count": 1,
+          "mean_percentile": 0.13400335008375208
+        }
+      }
+    },
+    "te1ee9rGf369wxYQkuxkvuvMuTJ9cksgZySmNUF8rNY": {
+      "client": "agave-bam",
+      "version": "4.4.0-rc.1",
+      "landing_rate": {
+        "sent": 4,
+        "landed": 4,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "10000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "250000": {
+            "sent": 1,
+            "landed": 1
+          }
+        }
+      },
+      "ordering": {
+        "same_block_tx_count": 4,
+        "fee_concordance": {
+          "concordant": 3,
+          "discordant": 2,
+          "tied": 1,
+          "fraction": 0.6
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 2,
+          "discordant": 4,
+          "tied": 0,
+          "fraction": 0.3333333333333333
+        },
+        "send_order_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "spearman_fee_vs_index": -0.10540925533894598,
+        "mean_percentile_by_fee": {
+          "0": 0.396728571898976,
+          "10000": 0.21164021164021163,
+          "250000": 0.15625
+        },
+        "shared_sink": {
+          "count": 2,
+          "mean_percentile": 0.09906740837696335
+        },
+        "independent": {
+          "count": 2,
+          "mean_percentile": 0.4816062693421184
+        }
+      }
+    }
+  },
+  "per_client": {
+    "agave": {
+      "ordering": {
+        "same_block_tx_count": 7,
+        "fee_concordance": {
+          "concordant": 9,
+          "discordant": 9,
+          "tied": 3,
+          "fraction": 0.5
+        },
+        "fee_concordance_ci95": [
+          0.0,
+          1.0
+        ],
+        "send_order_concordance": {
+          "concordant": 12,
+          "discordant": 8,
+          "tied": 1,
+          "fraction": 0.6
+        },
+        "send_order_concordance_ci95": [
+          0.17647058823529413,
+          1.0
+        ],
+        "spearman_fee_vs_index": 0.0,
+        "mean_percentile_by_fee": {
+          "0": 0.6383642930856553,
+          "1000": 0.23636363636363636,
+          "10000": 0.8078126674525774,
+          "50000": 0.48467944053682593
+        },
+        "shared_sink": {
+          "count": 3,
+          "mean_percentile": 0.6173296570895971
+        },
+        "independent": {
+          "count": 4,
+          "mean_percentile": 0.5615218668112406
+        }
+      },
+      "landing_rate": {
+        "sent": 7,
+        "landed": 7,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 2,
+            "landed": 2
+          },
+          "1000": {
+            "sent": 1,
+            "landed": 1
+          },
+          "10000": {
+            "sent": 2,
+            "landed": 2
+          },
+          "50000": {
+            "sent": 2,
+            "landed": 2
+          }
+        }
+      }
+    },
+    "agave-bam": {
+      "ordering": {
+        "same_block_tx_count": 172,
+        "fee_concordance": {
+          "concordant": 5533,
+          "discordant": 6198,
+          "tied": 2975,
+          "fraction": 0.4716562952859944
+        },
+        "fee_concordance_ci95": [
+          0.40975236150114885,
+          0.5337579617834395
+        ],
+        "send_order_concordance": {
+          "concordant": 7276,
+          "discordant": 6214,
+          "tied": 1216,
+          "fraction": 0.539362490733877
+        },
+        "send_order_concordance_ci95": [
+          0.4874990670945593,
+          0.593852337005061
+        ],
+        "spearman_fee_vs_index": 0.0695613753839166,
+        "mean_percentile_by_fee": {
+          "0": 0.4492365936719616,
+          "1000": 0.4850573717172856,
+          "10000": 0.33048704317819605,
+          "50000": 0.5010270216861711,
+          "250000": 0.49713855871427576
+        },
+        "shared_sink": {
+          "count": 58,
+          "mean_percentile": 0.4514308883573997
+        },
+        "independent": {
+          "count": 114,
+          "mean_percentile": 0.45098103185552235
+        }
+      },
+      "landing_rate": {
+        "sent": 172,
+        "landed": 172,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 39,
+            "landed": 39
+          },
+          "1000": {
+            "sent": 41,
+            "landed": 41
+          },
+          "10000": {
+            "sent": 34,
+            "landed": 34
+          },
+          "50000": {
+            "sent": 30,
+            "landed": 30
+          },
+          "250000": {
+            "sent": 28,
+            "landed": 28
+          }
+        }
+      }
+    },
+    "firebam": {
+      "ordering": {
+        "same_block_tx_count": 27,
+        "fee_concordance": {
+          "concordant": 158,
+          "discordant": 129,
+          "tied": 64,
+          "fraction": 0.5505226480836237
+        },
+        "fee_concordance_ci95": [
+          0.3684210526315789,
+          0.7333333333333333
+        ],
+        "send_order_concordance": {
+          "concordant": 183,
+          "discordant": 146,
+          "tied": 22,
+          "fraction": 0.5562310030395137
+        },
+        "send_order_concordance_ci95": [
+          0.39937106918238996,
+          0.7021943573667712
+        ],
+        "spearman_fee_vs_index": -0.11503244732113321,
+        "mean_percentile_by_fee": {
+          "0": 0.4671373357035122,
+          "1000": 0.6357365974225411,
+          "10000": 0.4912038239748497,
+          "50000": 0.5137077897276805,
+          "250000": 0.4741134814937963
+        },
+        "shared_sink": {
+          "count": 9,
+          "mean_percentile": 0.6364509981176445
+        },
+        "independent": {
+          "count": 18,
+          "mean_percentile": 0.46788148440758653
+        }
+      },
+      "landing_rate": {
+        "sent": 27,
+        "landed": 27,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 7,
+            "landed": 7
+          },
+          "1000": {
+            "sent": 7,
+            "landed": 7
+          },
+          "10000": {
+            "sent": 4,
+            "landed": 4
+          },
+          "50000": {
+            "sent": 5,
+            "landed": 5
+          },
+          "250000": {
+            "sent": 4,
+            "landed": 4
+          }
+        }
+      }
+    },
+    "firedancer": {
+      "ordering": {
+        "same_block_tx_count": 38,
+        "fee_concordance": {
+          "concordant": 337,
+          "discordant": 235,
+          "tied": 131,
+          "fraction": 0.5891608391608392
+        },
+        "fee_concordance_ci95": [
+          0.4424778761061947,
+          0.7356746765249538
+        ],
+        "send_order_concordance": {
+          "concordant": 310,
+          "discordant": 317,
+          "tied": 76,
+          "fraction": 0.4944178628389155
+        },
+        "send_order_concordance_ci95": [
+          0.371900826446281,
+          0.6148867313915858
+        ],
+        "spearman_fee_vs_index": -0.22371952006909585,
+        "mean_percentile_by_fee": {
+          "0": 0.5961858708387182,
+          "1000": 0.39998669695683853,
+          "10000": 0.16050452477226557,
+          "50000": 0.41514335073431213,
+          "250000": 0.4395007055704883
+        },
+        "shared_sink": {
+          "count": 14,
+          "mean_percentile": 0.34670307125729705
+        },
+        "independent": {
+          "count": 24,
+          "mean_percentile": 0.44807883832044376
+        }
+      },
+      "landing_rate": {
+        "sent": 38,
+        "landed": 38,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 9,
+            "landed": 9
+          },
+          "1000": {
+            "sent": 9,
+            "landed": 9
+          },
+          "10000": {
+            "sent": 7,
+            "landed": 7
+          },
+          "50000": {
+            "sent": 8,
+            "landed": 8
+          },
+          "250000": {
+            "sent": 5,
+            "landed": 5
+          }
+        }
+      }
+    },
+    "harmonic-agave": {
+      "ordering": {
+        "same_block_tx_count": 123,
+        "fee_concordance": {
+          "concordant": 2859,
+          "discordant": 3115,
+          "tied": 1529,
+          "fraction": 0.4785738198861734
+        },
+        "fee_concordance_ci95": [
+          0.4036618754277892,
+          0.5549431622459524
+        ],
+        "send_order_concordance": {
+          "concordant": 3227,
+          "discordant": 3659,
+          "tied": 617,
+          "fraction": 0.4686320069706651
+        },
+        "send_order_concordance_ci95": [
+          0.3983929875821768,
+          0.5354040924481084
+        ],
+        "spearman_fee_vs_index": 0.05075886989030962,
+        "mean_percentile_by_fee": {
+          "0": 0.5206947415767967,
+          "1000": 0.4004899964409001,
+          "10000": 0.5418219407443121,
+          "50000": 0.5009453589450928,
+          "250000": 0.49511471070468505
+        },
+        "shared_sink": {
+          "count": 43,
+          "mean_percentile": 0.49600353763398053
+        },
+        "independent": {
+          "count": 80,
+          "mean_percentile": 0.47616588314512337
+        }
+      },
+      "landing_rate": {
+        "sent": 123,
+        "landed": 123,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 23,
+            "landed": 23
+          },
+          "1000": {
+            "sent": 33,
+            "landed": 33
+          },
+          "10000": {
+            "sent": 20,
+            "landed": 20
+          },
+          "50000": {
+            "sent": 21,
+            "landed": 21
+          },
+          "250000": {
+            "sent": 26,
+            "landed": 26
+          }
+        }
+      }
+    },
+    "harmonic-firedancer": {
+      "ordering": {
+        "same_block_tx_count": 88,
+        "fee_concordance": {
+          "concordant": 1329,
+          "discordant": 1651,
+          "tied": 848,
+          "fraction": 0.4459731543624161
+        },
+        "fee_concordance_ci95": [
+          0.3574341861327401,
+          0.5397746671218846
+        ],
+        "send_order_concordance": {
+          "concordant": 1793,
+          "discordant": 1738,
+          "tied": 297,
+          "fraction": 0.5077881619937694
+        },
+        "send_order_concordance_ci95": [
+          0.42692750287687,
+          0.5933236574746009
+        ],
+        "spearman_fee_vs_index": 0.1282280174280132,
+        "mean_percentile_by_fee": {
+          "0": 0.45032719561404333,
+          "1000": 0.47606862874079,
+          "10000": 0.4638705386753832,
+          "50000": 0.5084226952799443,
+          "250000": 0.5491831090668083
+        },
+        "shared_sink": {
+          "count": 28,
+          "mean_percentile": 0.47981353698881973
+        },
+        "independent": {
+          "count": 60,
+          "mean_percentile": 0.48335256196013626
+        }
+      },
+      "landing_rate": {
+        "sent": 88,
+        "landed": 88,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 27,
+            "landed": 27
+          },
+          "1000": {
+            "sent": 24,
+            "landed": 24
+          },
+          "10000": {
+            "sent": 11,
+            "landed": 11
+          },
+          "50000": {
+            "sent": 13,
+            "landed": 13
+          },
+          "250000": {
+            "sent": 13,
+            "landed": 13
+          }
+        }
+      }
+    },
+    "jito": {
+      "ordering": {
+        "same_block_tx_count": 157,
+        "fee_concordance": {
+          "concordant": 5019,
+          "discordant": 4610,
+          "tied": 2617,
+          "fraction": 0.5212379270952332
+        },
+        "fee_concordance_ci95": [
+          0.450294817420089,
+          0.5875389408099688
+        ],
+        "send_order_concordance": {
+          "concordant": 5757,
+          "discordant": 5458,
+          "tied": 1031,
+          "fraction": 0.5133303611234953
+        },
+        "send_order_concordance_ci95": [
+          0.45591417237648757,
+          0.5659380039419459
+        ],
+        "spearman_fee_vs_index": -0.04559417344822985,
+        "mean_percentile_by_fee": {
+          "0": 0.4880199880896176,
+          "1000": 0.5624319390670997,
+          "10000": 0.4718179877985295,
+          "50000": 0.37924867154703085,
+          "250000": 0.5102112174722394
+        },
+        "shared_sink": {
+          "count": 49,
+          "mean_percentile": 0.5144135212371096
+        },
+        "independent": {
+          "count": 108,
+          "mean_percentile": 0.480804753732208
+        }
+      },
+      "landing_rate": {
+        "sent": 157,
+        "landed": 157,
+        "rate": 1.0,
+        "by_fee_level": {
+          "0": {
+            "sent": 46,
+            "landed": 46
+          },
+          "1000": {
+            "sent": 38,
+            "landed": 38
+          },
+          "10000": {
+            "sent": 24,
+            "landed": 24
+          },
+          "50000": {
+            "sent": 23,
+            "landed": 23
+          },
+          "250000": {
+            "sent": 26,
+            "landed": 26
+          }
+        }
+      }
+    }
+  }
+}

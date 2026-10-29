@@ -1,0 +1,23 @@
+# One-command runs:
+#   docker compose run --rm itb plan                 # dry-run (default, sends nothing)
+#   docker compose run --rm itb init-keys            # generate actor keypairs into ./keys
+#   CLUSTER=devnet docker compose run --rm itb fund-devnet
+#   CLUSTER=mainnet-beta docker compose run --rm itb run --live --max-bursts 160
+#   docker compose run --rm itb analyze
+#
+# Copy .env.example to .env and fill in RPC_URL etc. Keys stay in ./keys
+# (mounted read-write only so init-keys can create them; treat as secrets).
+services:
+  itb:
+    build: .
+    environment:
+      RPC_URL: ${RPC_URL:-https://api.mainnet-beta.solana.com}
+      SEND_RPC_URL: ${SEND_RPC_URL:-}
+      CLUSTER: ${CLUSTER:-}
+      KEYPAIR_DIR: /keys
+      DATA_DIR: /data
+      SPEND_CAP_LAMPORTS: ${SPEND_CAP_LAMPORTS:-50000000}
+    volumes:
+      - ./keys:/keys
+      - ./data:/data
+    command: ["plan"]

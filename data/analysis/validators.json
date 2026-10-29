@@ -1,0 +1,74 @@
+[
+  {
+    "vote_pubkey": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
+    "node_pubkey": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+    "activated_stake": 17028574244749148,
+    "version": "4.3.2",
+    "client": "harmonic-agave",
+    "client_id": "HarmonicAgave",
+    "gossip": "141.95.45.24:8001"
+  },
+  {
+    "vote_pubkey": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
+    "node_pubkey": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+    "activated_stake": 16665444377046747,
+    "version": "4.3.2",
+    "client": "jito",
+    "client_id": "JitoLabs",
+    "gossip": "64.130.57.215:8001"
+  },
+  {
+    "vote_pubkey": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
+    "node_pubkey": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+    "activated_stake": 12878826062976823,
+    "version": "4.4.0-rc.1",
+    "client": "agave-bam",
+    "client_id": "AgaveBam",
+    "gossip": "67.202.63.79:8000"
+  },
+  {
+    "vote_pubkey": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
+    "node_pubkey": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+    "activated_stake": 10762072571450830,
+    "version": "4.3.2",
+    "client": "jito",
+    "client_id": "JitoLabs",
+    "gossip": "64.130.32.153:8001"
+  },
+  {
+    "vote_pubkey": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
+    "node_pubkey": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+    "activated_stake": 9705355838241380,
+    "version": "26.10.4",
+    "client": "harmonic-firedancer",
+    "client_id": "HarmonicFiredancer",
+    "gossip": "88.216.36.133:8001"
+  },
+  {
+    "vote_pubkey": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
+    "node_pubkey": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+    "activated_stake": 9466645875805894,
+    "version": "4.3.2",
+    "client": "harmonic-agave",
+    "client_id": "HarmonicAgave",
+    "gossip": "67.208.234.129:8000"
+  },
+  {
+    "vote_pubkey": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
+    "node_pubkey": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+    "activated_stake": 6998037166361801,
+    "version": "26.10.4",
+    "client": "harmonic-firedancer",
+    "client_id": "HarmonicFiredancer",
+    "gossip": "94.158.242.125:8001"
+  },
+  {
+    "vote_pubkey": "GHViLgbrJdZDPb6sphRbeuPNM9cmjsFuGWzrTF1sKF5n",
+    "node_pubkey": "5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux",
+    "activated_stake": 5717980466121775,
+    "version": "4.3.2",
+    "client": "agave-bam",
+    "client_id": "AgaveBam",
+    "gossip": "54.245.46.64:37000"
+  }
+]
